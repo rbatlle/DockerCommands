@@ -14,25 +14,23 @@ docker ps -a
 docker-compose up -d
 ```
 
-### Levantar contenedores descargando una versión especificada
+### Levantar contenedores descargando una nueva versión de estos
 
 ```
 docker-compose up -d --build
 ```
 
-### Parar todos los Contenedores
+### Parar Contenedores
 
 ```
 docker-compose stop 
 ```
 
-### Reiniciar todos los Contenedores
+### Reiniciar contenedores
 
 ```
 docker-compose restart 
 ```
-
-#### Reinicia el contenedor especificado
 
 ```
 docker-compose restart <prometheus>
