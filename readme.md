@@ -4,7 +4,7 @@
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAJH4R87uV3Rvncs3L3urjeNESAfJGTMTrA&s" height="120px" alt="docker-logo">
 
-## ARCHIVOS
+## ARCHIVOS RELEVANTES
 ### docker-compose.yaml 
 <p>Es un archivo de configuración que define múltiples servicios de Docker en un solo entorno. Utilizando sintaxis YAML, permite describir contenedores, redes, volúmenes y variables de entorno necesarias para una aplicación. </p>
 
@@ -12,9 +12,9 @@
 
 ### Dockerfile
 
-<p>Es un archivo de texto que contiene una secuencia de instrucciones para crear una imagen personalizada de Docker. Define cómo se construye el entorno del contenedor, el software que incluye y cómo se configura. </p>
+<p>Es un archivo de texto que contiene una secuencia de instrucciones para crear una imagen personalizada, donde se define la construcción del contenedor, el software que incluye y cómo se configura. </p>
 <img src="images/docker-build.png">
-<p>En la captura podemos observar que a partir de la imagen base de php añadiremos el módulo de autenticación LDAP, de esta manera crearemos una imagen personalizada que ya incluirà este modulo.</p>
+<p>En la imagen, podemos ver que partiendo de la imagen base de PHP 7.4, añadimos el módulo de autenticación LDAP. De este modo, crearemos una imagen personalizada que ya incluirá este módulo.</p>
 
 ```
 docker build –t  php-ldap
@@ -22,10 +22,11 @@ docker build –t  php-ldap
 
 ### .env 
 
-<p>Archivo oculto que podemos usar para almacenar información sensible (Credenciales, Versiones de contenedores...) por defecto si hemos definido definimos variables de entorno en el archivo docker-compose.yml este leera el contenido del archivo .env </p>
+<p>Archivo oculto que podemos usar para almacenar información sensible como (Credenciales, claves API, puertos de los servicios, Version de las imagenes...) de esta manera evitaremos exponer los datos directamente en el codigo.</p> 
 
+<img src="images/env-file.png">
 
-### Docker swarm
+### Modo Docker swarm
 
 ## Levantar contenedores
 
