@@ -58,8 +58,6 @@ docker ps -a
 
 ## Acceder internamente a un Contenedor
 
-<img src="">
-
 ```
 docker exec -it <CONTENEDOR> /bin/bash
 ```
