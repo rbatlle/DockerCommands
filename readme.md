@@ -6,7 +6,8 @@
 
 ## ARCHIVOS RELEVANTES
 ### docker-compose.yaml 
-<p>Es un archivo de configuración que define múltiples servicios de Docker en un solo entorno. Utilizando sintaxis YAML, permite describir contenedores, redes, volúmenes y variables de entorno necesarias para una aplicación. </p>
+<p>Es un archivo de configuración que define múltiples servicios de Docker en un solo entorno. Utilizando sintaxis YAML, permite describir contenedores, redes, volúmenes y variables de entorno necesarias para una aplicación.</p>
+<p>Extension del archivo - .yaml / .yml </p>
 
 <img src="images/docker-compose.png">
 
