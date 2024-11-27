@@ -26,10 +26,18 @@ docker-compose up -d --build
 docker-compose stop 
 ```
 
+```
+docker-compose stop <nginx>
+```
+
 ### Reiniciar contenedores
 
 ```
 docker-compose restart 
+```
+
+```
+docker-compose restart <nginx>
 ```
 
 ### Mostrar todos los contenedores (Cualquier Estado)
@@ -37,10 +45,7 @@ docker-compose restart
 ```
 docker ps -a
 ```
-
-```
-docker-compose restart <prometheus>
-```
+<img src="docker-ps.png">
 
 ### Logs Contenedores
 
