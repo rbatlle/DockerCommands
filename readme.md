@@ -1,6 +1,6 @@
 # Docker Commands
 
-![Command](https://img.shields.io/badge/Tools-Docker-blue)  ![Command](https://img.shields.io/badge/docker_compose-blue) 
+![Command](https://img.shields.io/badge/Tools-Docker-blue) ![Command](https://img.shields.io/badge/Project-Sysgraf-red) 
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAJH4R87uV3Rvncs3L3urjeNESAfJGTMTrA&s" height="120px" alt="docker-logo">
 
@@ -8,7 +8,7 @@
 ### docker-compose.yaml
 <p>Permite crear multiples contenedores con configuración personalizada</p>
 
-<img src="docker-compose.png">
+<img src="images/docker-compose.png">
 
 ### Dockerfile
 <img src="images/docker-build.png">
@@ -36,7 +36,7 @@ docker-compose stop
 ```
 
 ```
-docker-compose stop <nginx>
+docker-compose stop nginx
 ```
 
 ## Reiniciar contenedores
@@ -46,11 +46,11 @@ docker-compose restart
 ```
 
 ```
-docker-compose restart <nginx>
+docker-compose restart nginx
 ```
 
 ## Mostrar todos los contenedores (Cualquier Estado)
-<img src="docker-ps.png">
+<img src="images/docker-ps.png">
 
 ```
 docker ps -a
@@ -70,18 +70,18 @@ docker logs -f nginx >& ./logs/nginx.log
 
 ## Imagenes Contenedores
 
-### Muestra todas las imagenes descargadas localmente
+#### Muestra todas las imagenes descargadas localmente
 <img src="images/docker-images.png" alt="docker images">
 
 ```
 docker images
 ```
 
-### Eliminar imagen
+#### Eliminar imagen
 
-<img src="docker-images-rm.png" alt="docker image rm">
+<img src="images/docker-images-rm.png" alt="docker image rm">
 
 ```
-docker image rm -f  <ID_CONTENEDOR>
+docker image rm -f <ID_IMAGEN>
 ```
 
