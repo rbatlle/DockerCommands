@@ -1,21 +1,31 @@
 # Docker Commands
 
-![Command](https://img.shields.io/badge/Tools-Docker-blue) ![Command](https://img.shields.io/badge/Project-Sysgraf-red) 
+![Command](https://img.shields.io/badge/Tools-Docker-blue)
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAJH4R87uV3Rvncs3L3urjeNESAfJGTMTrA&s" height="120px" alt="docker-logo">
 
 ## ARCHIVOS
-### docker-compose.yaml
-<p>Permite crear multiples contenedores con configuración personalizada</p>
+### docker-compose.yaml 
+<p>Es un archivo de configuración que define múltiples servicios de Docker en un solo entorno. Utilizando sintaxis YAML, permite describir contenedores, redes, volúmenes y variables de entorno necesarias para una aplicación. </p>
 
 <img src="images/docker-compose.png">
 
 ### Dockerfile
+
+<p>Es un archivo de texto que contiene una secuencia de instrucciones para crear una imagen personalizada de Docker. Define cómo se construye el entorno del contenedor, el software que incluye y cómo se configura. </p>
 <img src="images/docker-build.png">
+<p>En la captura podemos observar que a partir de la imagen base de php añadiremos el módulo de autenticación LDAP, de esta manera crearemos una imagen personalizada que ya incluirà este modulo.</p>
 
 ```
 docker build –t  php-ldap
 ```
+
+### .env 
+
+<p>Archivo oculto que podemos usar para almacenar información sensible (Credenciales, Versiones de contenedores...) por defecto si hemos definido definimos variables de entorno en el archivo docker-compose.yml este leera el contenido del archivo .env </p>
+
+
+### Docker swarm
 
 ## Levantar contenedores
 
