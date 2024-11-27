@@ -1,12 +1,12 @@
 # Docker Commands
 
-![Command](https://img.shields.io/badge/Tools-Docker-blue)
+![Command](https://img.shields.io/badge/Tools-Docker-blue) ![Command](https://img.shields.io/badge/Resources-https://docs.docker.com-red)
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAJH4R87uV3Rvncs3L3urjeNESAfJGTMTrA&s" height="120px" alt="docker-logo">
 
 ## ARCHIVOS RELEVANTES
 ### docker-compose.yaml 
-<p>Es un archivo de configuración que define múltiples servicios de Docker en un solo entorno. Utilizando sintaxis YAML, permite describir contenedores, redes, volúmenes y variables de entorno necesarias para una aplicación.</p>
+<p>Archivo de configuración que permite definir múltiples servicios (contenedores) Docker en un único entorno. Utilizando sintaxis YAML, permite describir contenedores, redes, volúmenes y variables de entorno necesarias para el funcionamiento de la aplicación.</p>
 <p>Extension del archivo - .yaml / .yml </p>
 
 <img src="images/docker-compose.png">
@@ -66,7 +66,7 @@ docker-compose restart nginx
 docker ps -a
 ```
 
-## Acceder internamente a un Contenedor
+## Acceder internamente a un contenedor - NO es habitual
 
 ```
 docker exec -it <CONTENEDOR> /bin/bash
