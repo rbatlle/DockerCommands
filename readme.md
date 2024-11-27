@@ -15,7 +15,7 @@
 docker build –t  php-ldap
 ```
 
-<img src="">
+<img src="docker-build.png">
 
 ### Levantar contenedores
 
@@ -59,11 +59,24 @@ docker ps -a
 ### Logs Contenedores
 
 ```
-docker logs –f <contenedor>
+docker logs –f nginx
 ```
 
 ### Exportar Logs 
 
 ```
 docker logs -f nginx >& ./logs/nginx.log
+```
+
+## Imagenes Aplicaciones Contenedores
+
+### Visualiza todas las imagenes descargadas localmente
+
+```
+docker images
+```
+
+### Eliminar imagen
+```
+docker image rm 
 ```
