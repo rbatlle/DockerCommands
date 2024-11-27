@@ -1,12 +1,12 @@
-# Comandos Docker
+# Docker Commands
 
-<img src="https://www.docker.com/wp-content/uploads/2023/05/symbol_blue-docker-logo.png" height="100px" alt="docker-logo">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAJH4R87uV3Rvncs3L3urjeNESAfJGTMTrA&s" height="120px" alt="docker-logo">
 
-### Mostrar todos los contenedores
 
-```
-docker ps -a
-```
+### Archivo docker-compose.yaml
+##### Permite crear multiples contenedores con configuración personalizada
+
+<img src="![image](https://github.com/user-attachments/assets/2ec4361d-b8e6-4eac-817a-f317c8bc86a3)">
 
 ### Levantar contenedores
 
@@ -30,6 +30,12 @@ docker-compose stop
 
 ```
 docker-compose restart 
+```
+
+### Mostrar todos los contenedores (Cualquier Estado)
+
+```
+docker ps -a
 ```
 
 ```
