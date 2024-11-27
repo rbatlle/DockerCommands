@@ -4,32 +4,32 @@
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAJH4R87uV3Rvncs3L3urjeNESAfJGTMTrA&s" height="120px" alt="docker-logo">
 
-### Archivo docker-compose.yaml
-##### Permite crear multiples contenedores con configuración personalizada
+## ARCHIVOS
+### docker-compose.yaml
+<p>Permite crear multiples contenedores con configuración personalizada</p>
 
 <img src="docker-compose.png">
 
-### Archivo Dockerfile
+### Dockerfile
+<img src="images/docker-build.png">
 
 ```
 docker build –t  php-ldap
 ```
 
-<img src="docker-build.png">
-
-### Levantar contenedores
+## Levantar contenedores
 
 ```
 docker-compose up -d
 ```
 
-### Levantar contenedores descargando una nueva versión de estos
+<p>Levantar contenedores descargando una nueva versión de estos</p>
 
 ```
 docker-compose up -d --build
 ```
 
-### Parar Contenedores
+## Parar Contenedores
 
 ```
 docker-compose stop 
@@ -39,7 +39,7 @@ docker-compose stop
 docker-compose stop <nginx>
 ```
 
-### Reiniciar contenedores
+## Reiniciar contenedores
 
 ```
 docker-compose restart 
@@ -49,14 +49,14 @@ docker-compose restart
 docker-compose restart <nginx>
 ```
 
-### Mostrar todos los contenedores (Cualquier Estado)
+## Mostrar todos los contenedores (Cualquier Estado)
+<img src="docker-ps.png">
 
 ```
 docker ps -a
 ```
-<img src="docker-ps.png">
 
-### Logs Contenedores
+## Logs
 
 ```
 docker logs –f nginx
@@ -68,15 +68,20 @@ docker logs –f nginx
 docker logs -f nginx >& ./logs/nginx.log
 ```
 
-## Imagenes Aplicaciones Contenedores
+## Imagenes Contenedores
 
-### Visualiza todas las imagenes descargadas localmente
+### Muestra todas las imagenes descargadas localmente
+<img src="images/docker-images.png" alt="docker images">
 
 ```
 docker images
 ```
 
 ### Eliminar imagen
+
+<img src="docker-images-rm.png" alt="docker image rm">
+
 ```
-docker image rm 
+docker image rm -f  <ID_CONTENEDOR>
 ```
+
