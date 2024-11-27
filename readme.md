@@ -6,7 +6,7 @@
 ### Archivo docker-compose.yaml
 ##### Permite crear multiples contenedores con configuración personalizada
 
-<img src="![image](https://github.com/user-attachments/assets/2ec4361d-b8e6-4eac-817a-f317c8bc86a3)">
+<img src="docker-compose.png">
 
 ### Levantar contenedores
 
