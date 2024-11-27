@@ -1,12 +1,21 @@
 # Docker Commands
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAJH4R87uV3Rvncs3L3urjeNESAfJGTMTrA&s" height="120px" alt="docker-logo">
+![Command](https://img.shields.io/badge/Tools-Docker-blue)  ![Command](https://img.shields.io/badge/docker_compose-blue) 
 
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAJH4R87uV3Rvncs3L3urjeNESAfJGTMTrA&s" height="120px" alt="docker-logo">
 
 ### Archivo docker-compose.yaml
 ##### Permite crear multiples contenedores con configuración personalizada
 
 <img src="docker-compose.png">
+
+### Archivo Dockerfile
+
+```
+docker build –t  php-ldap
+```
+
+<img src="">
 
 ### Levantar contenedores
 
