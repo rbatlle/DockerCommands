@@ -22,11 +22,9 @@ docker build –t  php-ldap
 
 ### .env 
 
-<p>Archivo oculto que podemos usar para almacenar información sensible como (Credenciales, claves API, puertos de los servicios, Version de las imagenes...) de esta manera evitaremos exponer los datos directamente en el codigo.</p> 
+<p>Archivo oculto que podemos usar para almacenar información sensible como credenciales, endpoints BBDD, API's, puertos, versiones de imagenes...) de esta manera evitaremos exponer los datos directamente en el codigo.</p> 
 
 <img src="images/env-file.png">
-
-### Modo Docker swarm
 
 ## Levantar contenedores
 
